@@ -1,0 +1,22 @@
+﻿@model Ninja
+
+<div class="container">
+    <h1 class="text-decoration-underline">Submitted Info</h1>
+    <div class="row">
+        <h4 class="col-sm-2">Name:</h4>
+        <p class="col-sm-9">@Model.Name</p>
+    </div>
+    <div class="row">
+        <h4 class="col-sm-2">Dojo Location:</h4>
+        <p class="col-sm-9"> @Model.Location</p>
+    </div>
+    <div class="row">
+        <h4 class="col-sm-2">Favorite Language:</h4>
+        <p class="col-sm-9">@Model.Language</p>
+    </div>
+    <div class="row">
+        <h4 class="col-sm-2">Comment:</h4>
+        <p class="col-sm-9">@Model.Comment</p>
+    </div>
+    <a href="/"><button  class="btn btn-success float-end">Back to Survey</button></a>
+</div> 
